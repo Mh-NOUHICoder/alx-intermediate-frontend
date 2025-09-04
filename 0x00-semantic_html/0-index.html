@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A blog post about semantic HTML and accessibility practices">
-    <meta name="keywords" content="HTML, Semantic, Accessibility, Blog, SEO">
-    <meta name="author" content="Your Name">
-    <title>Semantic HTML Blog Post</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Structured HTML Document</title>
     <style>
         * {
             margin: 0;
@@ -221,53 +217,15 @@
                 gap: 15px;
             }
         }
-
-        /* SEO and Accessibility Features */
-        .seo-info {
-            background: #e8f4fc;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
-            border-left: 4px solid #4b6cb7;
-        }
-
-        .seo-info h3 {
-            color: #182848;
-            margin-bottom: 10px;
-        }
-
-        /* Focus styles for accessibility */
-        a:focus, button:focus {
-            outline: 3px solid #ffcc00;
-            outline-offset: 2px;
-        }
-
-        /* Skip link for screen readers */
-        .skip-link {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: #182848;
-            color: white;
-            padding: 8px;
-            z-index: 100;
-            transition: top 0.3s;
-        }
-
-        .skip-link:focus {
-            top: 0;
-        }
     </style>
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
-    
     <div class="container">
         <header>
             <div class="header-content">
                 <div class="logo">
                     <i class="fas fa-code"></i>
-                    Semantic HTML Blog
+                    Semantic HTML
                 </div>
                 <nav>
                     <ul>
@@ -279,15 +237,9 @@
             </div>
         </header>
         
-        <main id="main-content">
+        <main>
             <article>
-                <h1>Understanding Semantic HTML for SEO and Accessibility</h1>
-                
-                <div class="seo-info">
-                    <h3>SEO and Accessibility Best Practices</h3>
-                    <p>This page demonstrates proper implementation of meta tags for search engine optimization and accessibility features for all users.</p>
-                </div>
-                
+                <h1>Understanding Semantic HTML</h1>
                 <p>Semantic HTML introduces meaning to the web page rather than just presentation. It makes web content more accessible and SEO-friendly by clearly defining different parts of a web page.</p>
                 
                 <section>
@@ -301,18 +253,6 @@
                     <p>2. Better SEO with clearer content structure</p>
                     <p>3. Easier code maintenance and readability</p>
                     <p>4. Enhanced user experience across devices</p>
-                </section>
-                
-                <section>
-                    <h2>Meta Tags for SEO</h2>
-                    <p>This page includes the following meta tags for improved SEO and accessibility:</p>
-                    <ul>
-                        <li><strong>Charset:</strong> UTF-8 for proper character encoding</li>
-                        <li><strong>Viewport:</strong> Responsive design settings</li>
-                        <li><strong>Description:</strong> Concise summary of page content</li>
-                        <li><strong>Keywords:</strong> Relevant terms for search engines</li>
-                        <li><strong>Author:</strong> Content creator information</li>
-                    </ul>
                 </section>
             </article>
             
@@ -335,10 +275,6 @@
                         <i class="fas fa-tag"></i>
                         <span>Responsive Design</span>
                     </div>
-                    <div class="sidebar-item">
-                        <i class="fas fa-tag"></i>
-                        <span>SEO Best Practices</span>
-                    </div>
                 </div>
             </aside>
         </main>
@@ -346,16 +282,18 @@
         <footer>
             <div class="footer-content">
                 <div class="copyright">
-                    <p>@copyright 2025 - Semantic HTML Blog</p>
+                    <p>@copyright 2025</p>
                 </div>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook" aria-label="Facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin" aria-label="LinkedIn"></i></a>
-                    <a href="#"><i class="fab fa-github" aria-label="GitHub"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </footer>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
 </html>
