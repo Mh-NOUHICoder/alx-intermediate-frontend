@@ -1,0 +1,13 @@
+﻿/* 3-mixin_margins.scss */
+@mixin horizontal-margins($lr) {
+  margin-left: $lr;
+  margin-right: $lr;
+}
+
+body {
+  @include horizontal-margins(10px);
+}
+
+div {
+  @include horizontal-margins(15px);
+}
